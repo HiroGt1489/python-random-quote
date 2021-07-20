@@ -9,8 +9,11 @@ def primerito():
   
   last = 13
   rnd = random.randint(0, last)
+  rmd = random.randint(-1, last)
 
-  print(quotes[rnd])
+
+  print(quotes[rnd]) 
+  print(quotes[rmd])
 
 if __name__== "__main__":
   primerito()
